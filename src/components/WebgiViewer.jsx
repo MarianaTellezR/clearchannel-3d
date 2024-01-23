@@ -95,7 +95,7 @@ const WebgiViewer = forwardRef((props, ref) => {
     viewer.renderer.refreshPipeline()
 
     // Import and add a GLB file.
-    await manager.addFromPath("scene-black.glb")
+    await manager.addFromPath("scene-pepsi-black.glb")
 
     viewer.getPlugin(TonemapPlugin).config.clipBackground = true
 
